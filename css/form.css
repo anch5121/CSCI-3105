@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* form styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#wrapper {
+    width: 60%;
+    margin: 2% auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #0056b3;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+}
+
+legend {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+label {
+    margin-right: .3em;
+    width: 8em; /* Adjusted width for better alignment */
+    display: inline-block;
+    text-align: right
+}
+
+input[type="text"], input[type="submit"] {
+    font-size: 0.9em;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #003f7f;
+}
+
+#formcol1 li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#multchoice p {
+    margin: 10px 0;
+}
+
+#multchoice span {
+    margin-right: 20px;
+}
+
+.submit-button {
+    text-align: center;
+}
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+color: #caba2b !important;
+background-color: #85bb2f !important;
+}
+
+#formcol1 input.reqfield {
+    background:#FF9;
+    }
+/* End of form css */
